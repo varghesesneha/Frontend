@@ -1,0 +1,23 @@
+h1 {
+    color:rgb(0, 102, 255);
+
+   background-color: rgb(249, 249, 245);
+   padding: 10px;
+margin: 10px;
+text-shadow: 0 0 15px;
+border: 3px dotted black;
+}
+p{
+    background-color: rgb(246, 132, 227);
+    padding: 10px;
+}
+.mall{
+    background-image: url("sky.jpg");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#teddy{
+    font-size: 40px;
+    word-spacing: 20px;
+    text-transform: upper;
+}
+

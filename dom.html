@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=!, initial-scale=1.0">
+    <title>DOM Demo(addition of two numbers)</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    First number
+    <input type="text" id="fnum"><br>
+    second number
+    <input type="text" id="snum"><br>
+    <button onclick="add()">Add</button><br>
+    <button onclick="sub()">sub</button><br>
+    <button onclick="mul()">mul</button><br>
+    <button onclick="div()">Div</button><br>
+    <h1>Result is <span id="result"></span></h1>
+
+    <h3>Program to check even or odd</h3>
+    Enter a number
+    <input type="text" id="pnum"><br>
+    <button onclick="check()">Check</button>
+    <h4>This is the <span id="res"></span>number</h4>
+
+<script>
+        function add()
+        {
+            var num1=parseInt(document.getElementById('fnum').value)
+            var num2=parseInt(document.getElementById('snum').value)
+            total=num1+num2
+            document.getElementById('result').innerHTML=total
+        }
+        function sub()
+        {
+            var num1=parseInt(document.getElementById('fnum').value)
+            var num2=parseInt(document.getElementById('snum').value)
+            total=num1-num2
+            document.getElementById('result').innerHTML=total
+        }
+        function mul()
+        {
+            var num1=parseInt(document.getElementById('fnum').value)
+            var num2=parseInt(document.getElementById('snum').value)
+            total=num1*num2
+            document.getElementById('result').innerHTML=total
+        }
+        function div()
+        {
+            var num1=parseInt(document.getElementById('fnum').value)
+            var num2=parseInt(document.getElementById('snum').value)
+            total=num1/num2
+            document.getElementById('result').innerHTML=total
+        }
+        function check()
+        {
+            var num1=parseInt(document.getElementById('pnum').value)
+            if(num1%2==0)
+        {
+            document.getElementById('res').innerHTML="Even"
+        }
+        else{
+            document.getElementById('res').innerHTML="Odd"
+        }
+        }
+    </script>
+</body>
+</html>

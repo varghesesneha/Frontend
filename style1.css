@@ -1,0 +1,11 @@
+.relative{
+    width:100px;
+    height: 100px;
+    border: 2px solid rgb(190, 240, 8)45);
+    background-color: brown;
+    position: sticky;
+top:100px;
+left:100px; 
+}
+
+
